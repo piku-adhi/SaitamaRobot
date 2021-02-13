@@ -202,7 +202,7 @@ def start(update: Update, context: CallbackContext):
                              url="https://t.me/pikachu_gits")
                          InlineKeyboardButton(
                              text="CONNECT"
-                             call_backdata="main_connect"
+                             call_backdata="main_connect")
                      ]]))
     else:
         update.effective_message.reply_text(
