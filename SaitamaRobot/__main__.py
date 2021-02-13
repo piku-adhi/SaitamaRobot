@@ -52,7 +52,8 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 Hi {}, my name is {}! 
-I am an assistant for @pikachu_gits 
+I am an assistant for @pikachu_gits and source code of me is open
+i am a kanged version of saitama robot 
 """
 
 HELP_STRINGS = """
