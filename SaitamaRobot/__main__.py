@@ -189,17 +189,20 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="☑️ Add to your group",
+                            text="Add to your group",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username))
                     ],
                      [
                          InlineKeyboardButton(
-                             text="👤 Owner",
-                             url=f"https://t.me/rosebakthan"),
+                             text=" Owner",
+                             url=f"https://t.me/POWER_OF_TELEGRAMX"),
                          InlineKeyboardButton(
-                             text="🔔 Updates Channel",
-                             url="https://t.me/TG_BotZ")
+                             text="support group",
+                             url="https://t.me/pikachu_gits")
+                         InlineKeyboardButton (
+                             text="CONNECT"
+                             call_backdata="main_connect"
                      ]]))
     else:
         update.effective_message.reply_text(
